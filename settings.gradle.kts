@@ -13,6 +13,5 @@ dependencyResolutionManagement {
     }
 }
 rootProject.name = "DailyManager"
-include ':app'
-include ':core'
-include ':core:model'
+include(":app")
+include(":core:model")
